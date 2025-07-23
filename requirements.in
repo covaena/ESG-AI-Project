@@ -1,0 +1,23 @@
+# pip uninstall crewai crewai-tools google-generative-ai langchain-google-genai
+# pip install --upgrade crewai crewai-tools "google-generative-ai>=0.5.0" langchain-google-genai
+
+# Document Processing
+pypdf
+unstructured
+
+# Data Processing
+pandas
+openpyxl
+xlsxwriter
+
+# Environment & Utilities
+python-dotenv
+requests                  # For API calls
+pydantic                  # Data validation
+
+# Vector Database & Embeddings (add back if needed)
+# chromadb
+# sentence-transformers     # For local embeddings
+
+# Optional: Advanced Tools
+# crewai-tools[mcp]       # Uncomment for Model Context Protocol support
